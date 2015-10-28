@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title> Homepage </title> 
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		 <script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+		<script type="text/javascript" src="javascript/Controller.js"></script>
+		
+		<script type="text/javascript" src="javascript/search.js"></script>
+
+	</head> 
+	
+	<body> 
+		<div id="wrapper">
+			<div id="header"> 
+			<div id="logo" > </div>
+			</div> 
+			<div id="menu"> 
+				<div id="wrap">
+						  <ul class="navbar">
+							 <li><a href="index.html">Home</a></li>
+							 <li><a href="site infopages/pages/holidaymainpage.html">Holidays</a>
+								<ul>
+								   <li><a href="site infopages/pages/france/infopageFrance.html">France</a></li>
+								   <li><a href="site infopages/pages/spain/infopageSpain.html">Spain</a></li>
+								   <li><a href="site infopages/pages/italy/infopageItaly.html">Italy</a></li>
+								   
+								   <li><a href="site infopages/pages/portugal/infopagePortugal.html">Portugal</a></li>
+								   <li><a href="site infopages/pages/america/infopageAmerica.html">America</a></li>
+								</ul>         
+							 </li>
+							 
+							 <li><a href="bookings/bookingpage.html">Book Flights</a> 
+							 <li><a href="bookings/loginpage.html">Log in</a>   </li>  
+							 <li><a href="site infopages/pages/contact/pomf.html">Contact Us</a>       
+							 </li>
+						  </ul>
+				</div>				
+			</div>
+			<div id="slider"> 
+				  <div id="container">
+					<div class="controller" id="prev">   </div>
+						 <div id="jslider">
+							 <img src="Image/1.jpg" width="850" height="350" alt="france" /> 
+							 <img src="Image/2.jpg" width="850" height="350" alt="nyc" />
+							 <img src="Image/3.jpg" alt="italy" width="850" height="350" />
+							 <img src="Image/4.jpg" alt="spain" width="850" height="350" />
+							 <img src="Image/5.jpg" alt="port" width="850" height="350" />
+						 </div>
+					<div class="controller" id="next">   </div>
+				</div>
+			</div> 
+			<div id="sidebar"  class="roundedEdge"> 
+				<br/>
+				&nbsp; &nbsp; &nbsp;Search for your perfect holiday!
+				<br/>
+				<br/>
+				
+					<form method="get" action="#">
+						&nbsp; &nbsp; <label> <b> Destination: </b> </label> <br/>
+						&nbsp; &nbsp; <select id="urlList" size="1" class="cos">
+							<option value="site infopages/pages/france/infopageFrance.html">France</option>
+							<option value="site infopages/pages/italy/infopageItaly.html">Italy</option>
+							<option value="site infopages/pages/portugal/infopagePortugal.html">Portugal</option>
+							<option value="site infopages/pages/spain/infopageSpain.html">Spain</option>
+							<option value="site infopages/pages/america/infopageAmerica.html">United States</option>
+						</select> <br/>
+						<br/>
+						&nbsp; &nbsp; <label> <b> Price: </b> </label> <br/>
+						 &nbsp; &nbsp; <select id="price" size="1" class="cos">
+							<option value="">&#8364;500</option>
+							<option value="">&#8364;1000</option>
+							<option value="">&#8364;1500</option>
+							<option value="">&#8364;2000</option>
+						</select>
+						<br/>
+						<br/>
+						&nbsp; &nbsp; <label> <b> Duration: </b> </label > <br/>
+						&nbsp; &nbsp;  <select id="duration" size="1" class="cos">
+							<option value="">1 Week </option>
+							<option value="">2 Weeks</option>
+							<option value="">3 Weeks</option>
+							<option value="">1 Month</option>
+						</select>
+						<br/>
+						<br/>
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="button" class="buttonStyle" value="" onclick="goTo();"/>
+
+					</form>
+			</div>
+			<div id="body"  class="rightedge1 "></div>
+			<div id="dst"> 
+				<div id="des1" onclick="window.location = 'http://nciholidays.gopagoda.com/site%20infopages/pages/france/infopageCharmonix.html#page=page-1';" ></div>
+				<div id="des2" onclick="window.location = 'http://nciholidays.gopagoda.com/site%20infopages/pages/america/infopageNewYork.html#page=page-1';" ></div>
+				<div id="des3" onclick="window.location = 'http://nciholidays.gopagoda.com/site%20infopages/pages/italy/infopageRome.html#page=page-1';"></div>
+
+			</div>
+			
+			<div id="body2"> 
+			 <div id="rd" > </div>
+				<div  class="cn"> 
+				<img style="float: right; padding: 7px 7px 0px 7px;" src="Image/backgrounds/florida2.jpg" alt="girl crying" height="25%" />
+					<h5> Florida is the most south-eastern state in the United States of America. Known as "The Sunshine State", it became a popular winter destination for the well-to-do from colder climates over a century ago, and has gained ever greater popularity since.... </h5>
+				<a href="site infopages/pages/america/infopageFlorida.html#page=page-1"> click for more info  </a>
+				</div>
+				<div  class="cn"> 
+				<img style="float: right; padding: 7px 7px 0px 7px;" src="Image/backgrounds/marbella2.jpg" alt="girl crying" height="25%" />
+				<h5> Marbella is a city and municipality in southern Spain, belonging to the province of Malaga in the autonomous community of Andalusia. It is part of the region of the Costa del Sol and is the headquarters of the Association of Municipalities of the region; it is also the head of the... </h5>
+				
+				<a href="site infopages/pages/spain/infopageMarbella.html#page=page-1" > click for more info </a> 
+
+				</div>
+				<div  class="cn"> 
+				<img style="float: right; padding: 7px 7px 0px 7px;" src="Image/backgrounds/venice1.jpg" alt="girl crying" height="25%" />
+				<h5> Venice  is a city in northeastern Italy sited on a group of 118 small islands separated by canals and linked by bridges. It is located in the marshy Venetian Lagoon which stretches along the shoreline, between the mouths of the Po and the Piave Rivers. Venice is renowned for the... </h5>
+				
+				<a href="site infopages/pages/italy/infopageVenice.html#page=page-1" > click for more info </a>
+				</div>
+				
+				
+				
+			</div>
+			<div id="footer"> </div>
+		</div>
+		<div align='center'><a href='http://www.hit-counter-html-code.com'><img src='http://www.hit-counter-html-code.com/c.php?d=9&id=123755&s=55' border='0' title='free website hit counter'></a><br / ><small><a href='http://www.hit-counter-html-code.com' title="hit counter html code"></a></small></div>		
+
+		</body>
+	</html>

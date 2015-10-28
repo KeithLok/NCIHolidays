@@ -1,0 +1,196 @@
+body { 
+	background-image: url(../../images/backgrounds/tile.jpg);	
+	 background-repeat:repeat-x; 
+	 background-color:  #d4c4ad; 
+}
+
+
+
+ul {
+margin: 0px;
+padding: 5px 0px 5px 30px;
+}
+		
+li {
+display: inline;
+margin-right: 40px;
+}
+
+a {
+color: #000000;
+text-decoration: none;
+}
+
+a:hover {
+color: #0000FF;
+}
+
+img {
+height: 200px;
+width: 200px;
+}
+
+
+div.content.inactive {
+	display: none;
+}
+
+
+
+			
+#wrapper{
+height : 1200px;
+width : 950px;
+margin-top: 25px;
+margin-left: auto;
+margin-right: auto;
+}
+			
+			#header{
+	height: 175px;
+	width: 950px;
+	
+	
+	background-image: url(../../images/backgrounds/sky.jpg);
+}
+
+#logo{ 
+	background-image: url(../../images/backgrounds/175.png);
+	height: 175px;
+	width: 175px;
+	float: left;
+	}
+			
+			#italy, #france, #greece, #portugal {
+				width: 220px;
+				float: left;
+				margin: 10px;
+				height: 198px;
+				background-image: url("images/shadow.png");
+				background-repeat: no-repeat;
+				background-position: bottom;
+				top: 40px;
+				left: 50px;
+				position: relative;
+				}
+				
+				#america, #spain {
+				width: 220px;
+				float: left;
+				margin: 10px;
+				height: 198px;
+				background-image: url("images/shadow.png");
+				background-repeat: no-repeat;
+				background-position: bottom;
+				top: 40px;
+				left: 130px;
+				position: relative;
+				
+				
+				}
+				
+				
+				
+			#emailform{
+				color: white;
+				float: left;
+				}
+				
+			figure {
+				display: block;
+				width: 202px;
+				height: 170px;
+				background-color: #e7e3d8;
+				padding: 9px;
+				text-align: left;}
+			
+			figure img {
+				width: 200px;
+				height: 150px;
+				border: 1px solid #d6d6d6;}
+			
+			figcaption {
+				background-image: url("images/icon.png");
+				padding-left: 20px;
+				background-repeat: no-repeat;}
+				
+				/* Menu styling */
+.roundedEdge {
+border-radius: 20px;
+}
+
+.leftedge {
+border-radius: 8px 0px 0px 8px;
+}
+
+.rightedge {
+border-radius: 0px 8px 8px 0px;
+}
+
+
+#wrap{
+width: 100%; /* Spans the width of the page */
+height: 50px; 
+margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+position: relative; 
+
+background-color: #366b82;
+}
+	
+.navbar{
+height: 50px;
+padding: 0;
+margin: 0;
+position: absolute; /* Ensures that the menu doesn’t affect other elements */
+border-right: 1px solid #54879d; 
+}
+	
+.navbar li {
+height: auto;
+width: 150px;  /* Each menu item is 150px wide */
+float: left;  /* This lines up the menu items horizontally */
+text-align: center;  /* All text is placed in the center of the box */
+list-style: none;  /* Removes the default styling (bullets) for the list */
+font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+padding: 0;
+margin: 0;
+background-color: #366b82;
+}
+						
+.navbar a{							
+padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+text-decoration: none;  /* Removes the default hyperlink styling. */
+color: white; /* Text color is white */
+display: block;
+}
+		
+.navbar li:hover, a:hover {background-color: #54879d;} 
+
+.navbar li ul {
+display: none;  /* Hides the drop-down menu */
+height: auto;									
+margin: 0; /* Aligns drop-down box underneath the menu item */
+padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.navbar li:hover ul{
+display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+						
+.navbar li ul li {background-color: #54879d;} 
+
+.navbar li ul li a {
+border-left: 1px solid #1f5065; 
+border-right: 1px solid #1f5065; 
+border-top: 1px solid #74a3b7; 
+border-bottom: 1px solid #1f5065; 
+}
+				
+.navbar li ul li a:hover	{background-color: #366b82;}
+
+	/*Menu styling ends*/
+	
+	

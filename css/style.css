@@ -1,0 +1,333 @@
+body { 
+	background-image: url(../Image/backgrounds/tile.jpg);	
+	 background-repeat:repeat-x; 
+	 background-color:  #d4c4ad; 
+}
+
+#wrapper{
+	height : 1500px;
+	width : 950px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	box-shadow: 0px 0px 15px black;
+}
+
+#header{
+	height: 175px;
+	width: 950px;
+	background-color: pink;
+	background-image: url(../Image/backgrounds/sky.jpg);
+}
+
+#logo{ 
+	background-image: url(../Image/backgrounds/175.png);
+	height: 175px;
+	width: 175px;
+	float: left;
+	}
+
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: #c2c2c2;
+	float: left;
+}
+
+#slider{
+	height : 350px;
+	width : 850px;
+	margin-top: 20px;
+	background-color: green;
+	float: left;
+	margin-left: 50px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px black;
+}
+
+#sidebar{
+	height: 350px;
+	width: 300px;
+	float: left;
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-image: url(../Image/bg.jpg);	
+}
+
+
+
+#dst{
+	height: 250px;
+	width: 590px; 
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	box-shadow: 3px 3px 10px #888888;
+	
+	
+}
+
+
+#body{
+	height: 80px;
+	width: 590px; 
+	float: left;
+	background-color: yellow;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-image: url(../Image/backgrounds/hot.jpg);	
+}
+
+#body2{
+height: 490px;
+width: 910px;
+
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+
+
+}
+
+#rd { 
+height: 175px;
+width: 910px;
+float:left;
+background-color: red;
+background-image: url(../Image/backgrounds/reco.jpg);	
+box-shadow: 0px 0px 5px black;
+
+}
+
+#des1{
+height: 88%;
+width: 30%;
+background-color: white;
+float: left;
+margin-left: 3%;
+margin-top: 15px;
+background-image: url(../Image/backgrounds/frc.png);	
+
+}
+
+#des1:hover {
+background-image: url(../Image/backgrounds/frc1.png);	
+
+}
+
+#des2{
+height: 88%;
+width: 30%;
+background-color: white;
+float: left;
+margin-left: 2%;
+margin-top: 15px;
+background-image: url(../Image/backgrounds/nyc.jpg);	
+
+}
+
+#des2:hover {
+background-image: url(../Image/backgrounds/nyc1.jpg);	
+
+}
+
+#des3{
+height: 88%;
+width: 30%;
+background-color: white;
+float: left;
+margin-left: 2%;
+margin-top: 15px;
+background-image: url(../Image/backgrounds/italy.jpg);	
+
+}
+
+#des3:hover {
+background-image: url(../Image/backgrounds/italy1.jpg);	
+
+}
+
+
+
+
+
+#footer{
+
+}
+
+
+
+
+
+.roundedEdge {  /* Makes a rounded edge */
+	border-radius: 20px;
+}
+.roundedEdge2 {  /* Makes a rounded edge */
+	border-radius: 10px;
+}
+
+
+.leftedge {
+	border-radius: 8px 0px 0px 8px;
+}
+
+.rightedge {
+	border-radius: 0px 8px 8px 0px;
+}
+
+.rightedge1 {
+	border-radius: 30px 0px 30px 0px;
+}
+
+
+/*Css for the  navigation div and style for the ul */
+
+#wrap	{
+	width: 100%; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: #366b82;
+	}
+	
+.navbar	{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #54879d; 
+	}
+	
+.navbar li 	{
+			height: auto;
+			width: 150px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #366b82;
+                        }
+						
+.navbar a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		
+.navbar li:hover, a:hover {background-color: #54879d;} 
+
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+						
+.navbar li ul li {background-color: #54879d;} 
+
+.navbar li ul li a 	{
+		border-left: 1px solid #1f5065; 
+		border-right: 1px solid #1f5065; 
+		border-top: 1px solid #74a3b7; 
+		border-bottom: 1px solid #1f5065; 
+		}
+				
+.navbar li ul li a:hover	{background-color: #366b82;}
+
+
+/* css for the  slider divs and the main slider */
+
+#container {
+	background-color: #FFC;
+	display: block;
+	float: left;
+	height: 350px;
+	width: 850px;
+	overflow: auto;
+}
+#prev {
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 52px;
+	width: 52px;
+	position: relative;
+	z-index: 97;
+	margin-top: 149px;
+	background-image: url(../Image/backgrounds/prv1.png);
+}
+
+#prev:hover {
+background-image: url(../Image/backgrounds/prv.png);
+}
+
+#next:hover  { 
+background-image: url(../Image/backgrounds/nxt.png);
+}
+
+#next {
+	background-image: url(../Image/backgrounds/nxt1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 52px;
+	width: 52px;
+	position: relative;
+	z-index: 97;
+	margin-top: 149px;
+}
+#jslider {
+	display: block;
+	height: 350px;
+	width: 850px;
+	overflow: hidden;
+	position: absolute;
+	
+}
+
+
+
+
+select.cos{ width: 90%;  }
+
+select.half{ width:45%;}
+
+div.row {background:#ffc;border:2px solid #ffc;margin:0 0 5px 0;float:left;width:100%;padding:6px 0;}
+
+div.cn {
+height: 45%;
+width: 31%;
+float: left;
+margin-left: 15px;
+margin-top: 15px;
+box-shadow: 0px 0px 5px black;
+background-color: white;
+}
+
+h5{
+   padding: 7px 7px 0px 7px;
+}
+
+.buttonStyle {
+background-image: url(../Image/backgrounds/sumbitb.jpg);
+width: 200px;
+height: 50px;
+
+}
